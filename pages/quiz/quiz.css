@@ -58,11 +58,26 @@ header {
 }
 
 .assunto_icone {
-    background: var(--bg-acessibiidade);
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.assunto_icone.html {
+    background: var(--bg-html);   
+}
+
+.assunto_icone.css {
+    background: var(--bg-css);
+}
+
+.assunto_icone.javaScript {
+    background: var(--bg-javaScript);
+}
+
+.assunto_icone.acessibilidade {
+    background: var(--bg-acessibiidade);
 }
 
 .assunto_icone img {
