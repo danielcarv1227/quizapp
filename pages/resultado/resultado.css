@@ -67,6 +67,22 @@ header {
     width: 100%;
 }
 
+.assunto_icone.html {
+    background: var(--bg-html);   
+}
+
+.assunto_icone.css {
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript {
+    background: var(--bg-javaScript);
+}
+
+.assunto_icone.acessibilidade {
+    background: var(--bg-acessibiidade);
+}
+
 .assunto h1 {
     font-size: 18px;
     font-weight: 500;
@@ -117,7 +133,7 @@ main h2 strong {
     font-weight: 500;
 }
 
-.pontuaçao {
+.pontuacao {
     background: var(--button-bg);
     padding: 32px;
     display: flex;
@@ -129,13 +145,13 @@ main h2 strong {
     box-shadow: var(--shadow);
 }
 
-.pontuaçao strong {
+.pontuacao strong {
     font-size: 88px;
     color: var(--primary-text-color);
     font-weight: 500;
 }
 
-.pontuaçao p {
+.pontuacao p {
     color: var(--secondary-text-color);
     font-size: 18px;
 }
@@ -215,16 +231,16 @@ main button:hover {
         font-size: 64px;
     }
 
-    .pontuaçao {
+    .pontuacao {
         border-radius: 24px;
         margin-bottom: 32px;
     }
 
-    .pontuaçao strong {
+    .pontuacao strong {
         font-size: 144px;
     }
 
-    .pontuaçao p {
+    .pontuacao p {
         font-size: 24px;
     }
 
